@@ -25,6 +25,7 @@ class LoadingBoxesView: SCNView {
         self.antialiasingMode = .Multisampling2X
         self.autoenablesDefaultLighting = true
         self.allowsCameraControl = true
+        self.showsStatistics = true
     }
     
     private func sceneNode() -> SCNNode {
