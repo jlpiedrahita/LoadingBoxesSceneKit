@@ -54,12 +54,12 @@ class LoadingBoxesView: SCNView {
         
         boxAnimation.values = [
             NSValue(SCNVector3:SCNVector3(0, 0, 0)),
-            NSValue(SCNVector3:SCNVector3(1, 0, 0)),
-            NSValue(SCNVector3:SCNVector3(1, 1, 0)),
-            NSValue(SCNVector3:SCNVector3(0, 1, 0)),
-            NSValue(SCNVector3:SCNVector3(0, 1, 0)),
-            NSValue(SCNVector3:SCNVector3(-1, 1, 0)),
             NSValue(SCNVector3:SCNVector3(-1, 0, 0)),
+            NSValue(SCNVector3:SCNVector3(-1, 1, 0)),
+            NSValue(SCNVector3:SCNVector3(0, 1, 0)),
+            NSValue(SCNVector3:SCNVector3(0, 1, 0)),
+            NSValue(SCNVector3:SCNVector3(1, 1, 0)),
+            NSValue(SCNVector3:SCNVector3(1, 0, 0)),
             NSValue(SCNVector3:SCNVector3(0, 0, 0)),
             NSValue(SCNVector3:SCNVector3(0, 0, 0))
         ]
